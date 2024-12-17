@@ -1,0 +1,455 @@
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "📃Surviving 100 days in the nuclear desert📃",
+Text = "create by 👑Đế Vương Thánh Giới👑", 
+Duration = 3
+})
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Surviving 100 days in the nuclear desert")
+
+local KillingCheats = PhantomForcesWindow:NewSection("teleport food 1")
+
+KillingCheats:CreateButton("BloxyCola", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").bunker.Supplies.BloxyCola.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Water", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").bunker.Supplies.Water.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Canned fish", function()
+local rootPart =  game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").bunker.Supplies["Canned Fish"].Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Turkey Leg", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").bunker.Supplies["Turkey Leg"].Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Milk", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").bunker.Supplies.Milk.Handle.CFrame
+print("HI")
+end)
+local KillingCheats = PhantomForcesWindow:NewSection("teleport food 2")
+KillingCheats:CreateButton("Canned Corn", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").bunker.Supplies["Canned Corn"].Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Beans", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").bunker.Supplies.Beans.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Donut", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.Donut.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("FoodBag", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.FoodBag.Handle.CFrame
+print("HI")
+end)
+local KillingCheats = PhantomForcesWindow:NewSection("teleport food 3")
+KillingCheats:CreateButton("Soda", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.Soda.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("HotDog", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.HotDog.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Banana", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.Banana.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("FoodBag", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.Lyche.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Juice", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.Juice.Handle.CFrame
+print("HI")
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("teleport gun")
+
+KillingCheats:CreateButton("Pistol", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.Pistol.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Uzi", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.Uzi.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Luger", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.Luger.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("M4", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.M4.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("DoubleShotgun", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.DoubleShotgun.Handle.CFrame
+print("HI")
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Other")
+
+KillingCheats:CreateButton("Katana", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.Katana.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Flashlight", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").ItemFolder.Flashlight.Handle.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("PlaneCrash", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").PlaneCrash.Main.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Crate", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Drop.Crate.Union.CFrame
+print("HI")
+end)
+
+KillingCheats:CreateButton("Pumpkin", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").GameMap.Map3.Halloween.Pumpkin.Pumpkin.CFrame
+print("HI")
+end)
+local PhantomForcesWindow = Library:NewWindow("hub 2")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Gun")
+
+KillingCheats:CreateButton("Get Pistol", function()
+local args = {
+    [1] = "Pistol",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get Uzi", function()
+local args = {
+    [1] = "Uzi",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get UMP", function()
+local args = {
+    [1] = "UMP",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get AR", function()
+local args = {
+    [1] = "AR",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get DoubleShotgun", function()
+local args = {
+    [1] = "DoubleShotgun",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get RPG", function()
+local args = {
+    [1] = "RPG",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get HalloweenGun", function()
+game:GetService("ReplicatedStorage").HalloweenGun:FireServer()
+print("HI")
+end)
+
+KillingCheats:CreateButton("GroupGun", function()
+game:GetService("ReplicatedStorage").Remotes.GroupGun:FireServer()
+
+print("HI")
+end)
+KillingCheats:CreateButton("HalloweenGun2", function()
+game:GetService("ReplicatedStorage").HalloweenGun2:FireServer()
+print("HI")
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Food 1")
+
+KillingCheats:CreateButton("Get BloxyCola", function()
+local args = {
+    [1] = "BloxyCola",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get Water", function()
+local args = {
+    [1] = "Water",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get Donut", function()
+local args = {
+    [1] = "Donut",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get FoodBag", function()
+local args = {
+    [1] = "FoodBag",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get Lyche", function()
+local args = {
+    [1] = "Lyche",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get Milk", function()
+local args = {
+    [1] = "Milk",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get Cheezburger", function()
+local args = {
+    [1] = "Cheezburger",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+
+print("HI")
+end)
+
+KillingCheats:CreateButton("Get Bloxiade", function()
+local args = {
+    [1] = "Bloxiade",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+
+print("HI")
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("other")
+
+KillingCheats:CreateButton("Medkit", function()
+local args = {
+    [1] = "Medkit",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+print("HI")
+end)
+
+KillingCheats:CreateButton("back bunker", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5.85355997, -32.9000053, 1.34793234, -0.980192602, 0, -0.19804661, 0, 1, 0, 0.19804661, 0, -0.980192602)
+print("HI")
+end)
+
+KillingCheats:CreateButton(" free HalloweenBadge", function()
+game:GetService("ReplicatedStorage").HalloweenBadge:FireServer()
+print("HI")
+end)
+
+local PhantomForcesWindow = Library:NewWindow("hub 3")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Players")
+
+KillingCheats:CreateToggle("Auto bring all", function(value)
+    autoRunning = value  -- Set the flag to the toggle's value (true/false)
+
+    if autoRunning then
+        -- Auto ON: Start the loop
+        while autoRunning do
+            local player = game.Players.LocalPlayer
+            local character = player.Character or player.CharacterAdded:Wait()
+            local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+            -- Khoáº£ng cĂ¡ch báº¡n muá»‘n Ä‘Æ°a ngÆ°á»i chÆ¡i Ä‘áº¿n
+            local distance = 10
+
+            for _, otherPlayer in pairs(game.Players:GetPlayers()) do
+                if otherPlayer ~= player then
+                    local otherCharacter = otherPlayer.Character
+                    if otherCharacter and otherCharacter:FindFirstChild("HumanoidRootPart") then
+                        local targetPosition = humanoidRootPart.Position + (humanoidRootPart.CFrame.LookVector * distance)
+                        
+                        -- Di chuyá»ƒn HumanoidRootPart an toĂ n
+                        otherCharacter.HumanoidRootPart.CFrame = CFrame.new(targetPosition)
+                    end
+                end
+            end
+
+            wait(0)  -- Äá»£i 1 giĂ¢y (hoáº·c Ä‘iá»u chá»‰nh Ä‘á»™ trá»… nhÆ° cáº§n thiáº¿t)
+        end
+    else
+        -- Auto OFF: Loop automatically stops when autoRunning is false
+        print("Auto mode turned off.")
+    end
+
+    print(value)  -- This prints the state of the toggle (true/false)
+end)
+
+KillingCheats:CreateTextbox("Hitbox Size players", function(text)
+    local newSize = tonumber(text)
+    if newSize then
+        for _, player in pairs(game.Players:GetPlayers()) do
+            -- Exclude your own character
+            if player ~= game.Players.LocalPlayer and player.Character then
+                local hitbox = player.Character:FindFirstChild("HumanoidRootPart")
+                if hitbox then
+                    hitbox.Size = Vector3.new(newSize, newSize, newSize)
+                    hitbox.Transparency = 0.7  -- Optional: make the hitbox semi-transparent
+                    hitbox.CanCollide = false  -- Optional: allow hitbox to pass through objects
+                end
+            end
+        end
+    else
+        print("Invalid input! Please enter a number.")
+    end
+end)
+
+KillingCheats:CreateTextbox("Set Speed", function(speedInput)
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoid = character:FindFirstChildOfClass("Humanoid")
+    
+    if humanoid and tonumber(speedInput) then
+        humanoid.WalkSpeed = tonumber(speedInput)
+        print("Speed set to:", speedInput)
+    else
+        print("Invalid input or humanoid not found")
+    end
+end)
+-- Creating TextBox for Jump Power
+KillingCheats:CreateTextbox("Set Jump Power", function(jumpInput)
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoid = character:FindFirstChildOfClass("Humanoid")
+    
+    if humanoid and tonumber(jumpInput) then
+        humanoid.JumpPower = tonumber(jumpInput)
+        print("Jump power set to:", jumpInput)
+    else
+        print("Invalid input or humanoid not found")
+    end
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("other")
+
+KillingCheats:CreateButton("inf money ", function()
+local args = {
+    [1] = "Bloxiade",
+    [2] = -999999999999999999
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyItem:FireServer(unpack(args))
+print("HI")
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("by create")
+
+KillingCheats:CreateButton("by 👑Đế Vương Thánh Giới👑", function()
+print("HI")
+end)
